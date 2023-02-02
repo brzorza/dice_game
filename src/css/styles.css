@@ -1,0 +1,31 @@
+:root {
+    --primary: #25deff;
+  }
+
+*{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*-------------*/
+/*  Reusable   */
+/*-------------*/
+
+.asdfagfasf{
+  height: 100vh;
+  background: linear-gradient(200deg, #174b41 0%, #105e38 45%, #c4b77f 100%);
+}
+
+.s{
+  font-weight: 400;
+}
+
+.b{
+  font-weight: 700;
+}
+
+.return-btn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
