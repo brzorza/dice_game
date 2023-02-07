@@ -5,7 +5,7 @@ import '../node_modules/bootstrap/js/index.esm';
 import MainPage from './components/MainPage';
 import Game from './components/Game';
 
-function App() {
+export default function App() {
 
   let [showGame, setShowGame] = useState(false)
 
@@ -19,5 +19,3 @@ function App() {
     </div>
   )
 }
-
-export default App;

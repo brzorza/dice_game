@@ -7,7 +7,7 @@ export default function Box(props) {
     }
 
     function combineFunctions(){
-        if(props.canClick === true && props.num <= props.dices){
+        if(props.canClick === true && props.num <= props.dices && props.clickCount > 0){
             props.handleClick(props.num)
             toggleShown()
         }else{
